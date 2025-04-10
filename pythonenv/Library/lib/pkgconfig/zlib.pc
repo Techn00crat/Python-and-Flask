@@ -1,0 +1,13 @@
+prefix=D:/MLOPs/pythonenv/Library
+exec_prefix=D:/MLOPs/pythonenv/Library
+libdir=D:/MLOPs/pythonenv/Library/lib
+sharedlibdir=D:/MLOPs/pythonenv/Library/lib
+includedir=D:/MLOPs/pythonenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
